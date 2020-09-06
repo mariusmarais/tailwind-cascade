@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "lib": ["es5"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+  },
+  "include": ["src/lib"]
+}

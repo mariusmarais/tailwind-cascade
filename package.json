@@ -1,0 +1,28 @@
+{
+  "name": "@mariusmarais/tailwind-cascade",
+  "version": "0.0.1",
+  "description": "Override TailwindCSS classnames by order",
+  "main": "index.js",
+  "repository": "git@github.com:mariusmarais/tailwind-cascade.git",
+  "author": "Marius Marais <marius.marais@gmail.com>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "generate": "ts-node src/generation/generate.ts",
+    "build": "yarn clean; yarn generate; tsc --declaration; cp ./{package.json,README.md,src/lib/generated-rules.json} ./dist/",
+    "clean": "rm -rf ./dist"
+  },
+  "devDependencies": {
+    "@types/brace-expansion": "^1.1.0",
+    "@types/classnames": "^2.2.10",
+    "@types/lodash": "^4.14.161",
+    "@types/node": "*",
+    "brace-expansion": "^1.1.11",
+    "lodash": "^4.17.20",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "escape-regex-string": "^1.0.6"
+  }
+}
