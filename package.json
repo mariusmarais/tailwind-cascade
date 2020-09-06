@@ -1,6 +1,6 @@
 {
   "name": "@mariusmarais/tailwind-cascade",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Override TailwindCSS classnames by order",
   "main": "index.js",
   "repository": "git@github.com:mariusmarais/tailwind-cascade.git",
