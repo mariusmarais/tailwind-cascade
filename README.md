@@ -10,7 +10,7 @@ npm install @mariusmarais/tailwind-cascade --save
 
 ## Why?
 
-TailwindCSS is amazing, but using it to create component libraries is difficult due to the CSS cascade. (See some [discussions](https://github.com/tailwindlabs/tailwindcss/discussions/1446).)
+TailwindCSS is amazing, but using it to create component libraries is difficult due to the CSS cascade. ([See](https://github.com/tailwindlabs/tailwindcss/discussions/1446) [some](https://github.com/tailwindlabs/tailwindcss/discussions/1951) [discussions](https://github.com/tailwindlabs/tailwindcss/discussions/2187).)
 
 Normally you would only use the specific Tailwind classes you need (that's the point), but when you're building a reusable component, you run into trouble with overriding some styles.
 
