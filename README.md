@@ -96,6 +96,8 @@ render() {
 }
 ```
 
+Usually the duplicate width and border options can cause trouble, but not anymore.
+
 ### Advanced
 
 Use `const twCascade = createTailwindCascader({prefix: 'some-tw-prefix-'})` if your Tailwind classes have a prefix.
