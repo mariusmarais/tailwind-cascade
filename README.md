@@ -1,4 +1,5 @@
 # tailwind-cascade
+<a href="https://www.npmjs.com/package/@mariusmarais/tailwind-cascade"><img src="https://img.shields.io/npm/v/@mariusmarais/tailwind-cascade.svg" alt="NPM"></a>
 
 An attempt at making composable components possible using [TailwindCSS](https://tailwindcss.com/).
 
