@@ -214,7 +214,11 @@ export const GroupDefinitions: DefinitionNode<string[]> = {
     repeat: x(`bg-{no-repeat,repeat{,-{x,y,round,space}}}`),
     size: x(`bg-{auto,cover,contain}`),
     image: x(`bg-{none,gradient-to-{t,tr,r,br,b,bl,l,tl}}`),
-    gradient: x(`{from,via,to}-${Standard.Colors}`),
+    gradient: {
+      from: x(`from-${Standard.Colors}`),
+      via: x(`via-${Standard.Colors}`),
+      to: x(`to-${Standard.Colors}`),
+    },
   },
   borders: {
     radius: {
