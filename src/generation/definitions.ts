@@ -45,7 +45,7 @@ const Standard = {
   Ratios: "{1/2,{1..2}/3,{1..3}/4,{1..4}/5,{1..5}/6,{1..11}/12}",
   Screens: "{sm,md,lg,xl}",
   Colors:
-    "{transparent,current,black,white,{{,cool-}gray,red,orange,yellow,green,teal,blue,indigo,purple,pink}-{50,{100..900..100}}}",
+    "{transparent,current,black,white,{{,cool-}gray,red,orange,yellow,green,teal,blue,indigo,purple,pink,brown}-{50,{100..900..100}}}",
   Opacities: "{0,25,50,75,100}",
   Durations: "{75,100,150,200,300,500,700,1000}",
   Scales: "{0,50,75,90,95,100,105,110,125,150}",
