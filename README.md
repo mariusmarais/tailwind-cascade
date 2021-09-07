@@ -1,3 +1,8 @@
+# DEPRECATED
+For Tailwind 2.0+ check out https://github.com/dcastil/tailwind-merge
+
+This project will still work for Tailwind 1, but no further changes will be made.
+
 # tailwind-cascade
 <a href="https://www.npmjs.com/package/@mariusmarais/tailwind-cascade"><img src="https://img.shields.io/npm/v/@mariusmarais/tailwind-cascade.svg" alt="NPM"></a>
 
