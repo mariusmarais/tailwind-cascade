@@ -108,6 +108,16 @@ Usually the duplicate width and border options can cause trouble, but not anymor
 
 Use `const twCascade = createTailwindCascader({prefix: 'some-tw-prefix-'})` if your Tailwind classes have a prefix.
 
+### Caveats
+
+#### Do not use theme color names (ex: 'primary'), or any non-standard names in your classes
+
+Because groups (see below) are currently defined manually (instead of being dynamically generated from the tailwind config) using non-standard property names in your classes will prevent tailwind-cascade from grouping class names correctly and will cause unexpected behavior. 
+
+For example: if you use theme colors named 'primary', 'info', 'danger', etc. tailwind-cascade will not categorize them correctly as colors. This is because some people may use those same names for something like font sizes, so a classname of 'text-primary' could be referring to a color, or it could be referring to some other text property, tailwind-cascade has no way of knowing.
+
+So, instead of `bg-primary` use `bg-green-300`(replace 'green-300' with whatever your primary color actually is of course). 
+
 ## How does it work?
 
 Pretty well, considering none of it was supposed to work this way...
